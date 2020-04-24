@@ -9,6 +9,7 @@ let package = Package(
         .library(
             name: "RxBinding",
             targets: ["RxBinding"]),
+        .library(name: "RxCocoaRuntime", targets: ["RxBinding"]),
     ],
     dependencies: [
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0")),
@@ -19,9 +20,6 @@ let package = Package(
             dependencies: [
 		"RxSwift",
                 "RxCocoa",
-	    ]),
-        .testTarget(
-            name: "RxBindingTests",
-            dependencies: ["RxBinding","RxSwift","RxCocoa","RxTest", "RxBlocking"]),	   
+	    ]),   
     ]
 )
