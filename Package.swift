@@ -18,11 +18,10 @@ let package = Package(
             name: "RxBinding",
             dependencies: [
 		"RxSwift",
-	        "RxRelay",
                 "RxCocoa",
 	    ]),
         .testTarget(
             name: "RxBindingTests",
-            dependencies: ["RxBinding"]),
+            dependencies: ["RxBinding","RxSwift","RxCocoa","RxTest", "RxBlocking"]),	   
     ]
 )
