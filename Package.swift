@@ -20,5 +20,5 @@ let package = Package(
 		"RxSwift",
                 "RxCocoa",
 	    ]),   
-    ],
+    ]
 )
