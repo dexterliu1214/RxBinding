@@ -26,7 +26,6 @@ let package = Package(
             name: "RxBinding",
             dependencies: [
 		"RxSwift",
-		"RxCocoa",
 	    ]),
         .testTarget(
             name: "RxBindingTests",
