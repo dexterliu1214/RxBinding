@@ -29,7 +29,7 @@ RxBinding provodes '~>', '<~>' and '~' operators for data binding using RxSwift.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RxBinding/Classes/**/*'
+  s.source_files = 'Sources/RxBinding/Classes/**/*'
   
   s.dependency 'RxSwift', '~> 5'
   s.dependency 'RxCocoa', '~> 5'
