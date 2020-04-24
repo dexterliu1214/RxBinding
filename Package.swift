@@ -21,5 +21,6 @@ let package = Package(
 		"RxSwift",
                 "RxCocoa",
 	    ]),   
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
